@@ -61,3 +61,47 @@ for name1_1 in name1_1:
 student1_number = input("Enter your opposite student no.:" )
 all_students = 100
 print("Student:", all_students - int(student1_number))
+
+
+
+
+# look what i just didddd, i'm sooooo happy
+# exercise: create something that asked for student's status and print some motivational message
+print("Greetings academic weapon!")
+print("Keep on studying, learning, and growing \n")
+course = "aim high, fly high, and be on top!"
+print(course.upper())
+name = input("Name:" )
+grade = int(input("Grade:" ))
+print("Name:", name)
+if grade == 12:
+	print("Senior high: gradWAITING")
+elif grade == 11:
+	print("Senior high")
+elif grade == 10:
+	print("Junior high: gradWAITING")
+elif grade > 6:
+	print("Junior high")
+else:
+	print("Elementary")
+section = input("Section:" )
+print("Section:", section)
+gwa = float(input("GWA:" ))
+print("GWA:", gwa)
+if gwa >= 98:
+	print("Continue to aim, to fly, and you will reach the top. We are rooting for your success kid, our brightest star!")
+elif gwa >= 97:
+	print("Spread you wings, go fly for your dreams, go further and higher. We are rooting for your success kid, our star")
+elif gwa >= 94:
+	print("Aim for the highest, fly and be the brightest. We are rooting for your success kid, our future star")
+elif gwa >= 90:
+	print("Keep you heart at blaze, use the spark to fly and aim straight for the highest. We are rooting for your success kid, our wannabe star")
+elif gwa >= 85:
+	print("Go explore the world. Be the light if you can't fly, be the arrow if you can't aim, be what others cannot. We are rooting for your success kid, our shifting star")
+else:
+	print("Life doesn't end when you don't get what you wanted. Keep on trying, keep on believing, keep on breathing. You still matter. Your existence matter and we are thankful for that. We are rooting for you success kid, our burning star")
+
+print("_____________________ \n")
+
+course = "keep on aiming, flying, and sailing. your journey are just started, create a life full of wanders and imperfections."
+print(course.upper())
